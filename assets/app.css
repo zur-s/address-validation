@@ -1,0 +1,52 @@
+body {
+    color: #666;
+}
+
+h1 {
+    color: #555;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #666;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #366fc9;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.btn-group .btn-primary:not(.active) {
+    background-color: #e1eaf3;
+    color: #366fc9;
+    border-color: #e1eaf3;
+}
+
+.bg-secondary-light {
+    background-color: #e3e3e3;
+}
+
+.nav-link {
+    color: #555;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #366fc9;
+}
